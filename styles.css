@@ -92,9 +92,32 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 600px;
+    width: 50%;
     gap: 32px;
 }
+
+#section-2 {
+    background-color: #e5e7eb;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+blockquote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    width: 50%;
+}
+cite {
+    display: block;
+    font-weight: bold;
+    text-align: right;
+    font-style: normal;
+    
+}
+
+
 
 
 
