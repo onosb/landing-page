@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
+  <header class="hero">
+    <div class="wrapper">
     <nav class="logo-links">
        <img src="images/logo.jpg" alt="The project logo" height="50px">
-
         <ul>
             <li>HTML5</li>
             <li>CSS3</li>
@@ -18,21 +23,20 @@
 
         </ul>
     </nav>
-    <div class="heading-text">
+    <div class="heading">
         <div>
-        <h1>Triangle Academy: Learn HTML, CSS, & JavaScript</h1>
-        <p>Go from absolute beginner to building responsive, interactive websites with our three core developer courses</p>
+        <h1 id="heading-text">Learn HTML, CSS, & JavaScript</h1>
+        <p class="subtext">Go from absolute beginner to building responsive, interactive websites with our three core developer courses</p>
         <button>Sign UP</button>
         </div>
         <img src="images/homepage.jpg" width="400">
+    </div>
     </div>
 
   </header>
   <main>
     <section>
         <h2>Courses we offer at Triangle Academy</h2>
-        
-      
         <figure>
              <img src="images/html-pic.jpg" alt="HTML course image" width="200" >
             <figcaption>HTML provides the fundamental structure and content layout of a webpage</figcaption>

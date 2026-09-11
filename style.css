@@ -1,0 +1,53 @@
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.hero{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+
+.wrapper{
+    flex-basis: 900px;
+    margin-bottom: 32px;
+}
+.logo-links,ul{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+     list-style-type: none;
+     gap: 16px;
+}
+
+#heading-text{
+    font-size: 48px;
+    font-weight: 900;
+}
+.subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.heading{
+    display: flex;
+    gap: 16px;
+}
+button{
+    background-color: #3882F6;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    color:#F9FAF8;
+    font-weight: 900;
+    margin-top: 8px;
+}
+
